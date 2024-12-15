@@ -21,6 +21,7 @@ int main()
     cout << "\nPointerin osoittama osoite on : " << myPointer << endl;
     cout << "Pointerin osoittaman muistipaikan arvo on : " << *myPointer << endl;
 
+
     int& refA = a;
 
     cout << "\nrefA osoittaa osoitteeseen: " << &refA << endl;
